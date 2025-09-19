@@ -1,0 +1,44 @@
+body{
+background: linear-gradient(to bottom, #ff7e5f 0%, #feb47b 100%);
+
+
+
+}
+
+.mt-5 ,.mb-4{
+    color: whitesmoke;
+}
+
+.btn-primary {
+  background-color: green ;
+  border-color: green ;
+  transition: all 0.3s ease-in-out; 
+}
+
+
+.btn-primary:hover {
+  background-color: #0f730f ; 
+  border-color: #0f730f ;
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); 
+}
+
+.btn-danger {
+ background-color: #dc3545 ;
+  border-color: #dc3545 ;
+  transition: all 0.3s ease-in-out; 
+}
+
+.btn-danger:hover {
+   background-color: #dc3545 ; 
+  border-color: #dc3545 ;
+  transform: scale(1.05); 
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.6); 
+}
+.custom-table {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+}
+
+
